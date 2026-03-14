@@ -12,7 +12,7 @@ def load_model_and_columns():
         st.error("Model or columns file not found!")
         return None, None
 
-    model = joblib.load("math_score_prediction_model.pkl")
+    model = joblib.load("maths_pass_model.pkl")
     model_columns = joblib.load("model_columns.pkl") 
     return model, model_columns
 
