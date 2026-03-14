@@ -5,7 +5,7 @@ import os
 
 
 def load_model_and_columns():
-    model_path = "math_score_prediction_model.pkl"
+    model_path = "maths_pass_model.pkl"
     columns_path = "model_columns.pkl"
 
     if not os.path.exists(model_path) or not os.path.exists(columns_path):
